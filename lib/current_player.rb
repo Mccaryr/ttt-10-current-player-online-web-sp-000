@@ -7,6 +7,7 @@ def turn_count(board_array)
   second_player = "O"
   count = 0
   board_array.each do |move|
+    if move == "X" || move == "O"
     count += 1
   end
   return count
