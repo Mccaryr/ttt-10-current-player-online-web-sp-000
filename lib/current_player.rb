@@ -8,5 +8,5 @@ def turn_count(board_array)
   count = 0
   if first_player == board_array
     count += 1
-  end 
-end 
+  end
+end
