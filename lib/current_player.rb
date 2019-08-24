@@ -1,7 +1,7 @@
 def current_player(game_board)
-  if turn_count.odd? 
+  if turn_count.odd?
     return "X"
-  end 
+  end
 end
 
 def turn_count(board_array)
